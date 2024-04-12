@@ -1,0 +1,24 @@
+
+.bg-pattern {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/14.jpg.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(8px);
+  }
+  
+  @media (max-width: 640px) {
+    .bg-pattern {
+      background-repeat: repeat-y;
+      background-size: auto;
+      backdrop-filter: blur(8px);
+    }
+  }
+  
+  .frosted-glass-effect {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.247);
+  }
+  
